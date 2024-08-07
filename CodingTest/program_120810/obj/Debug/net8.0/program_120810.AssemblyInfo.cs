@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("problem_120805")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("program_120810")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12a506e3eab0c36302cbc6f09d4af1961ea99954")]
-[assembly: System.Reflection.AssemblyProductAttribute("problem_120805")]
-[assembly: System.Reflection.AssemblyTitleAttribute("problem_120805")]
+[assembly: System.Reflection.AssemblyProductAttribute("program_120810")]
+[assembly: System.Reflection.AssemblyTitleAttribute("program_120810")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment 클래스에서 생성되었습니다.
