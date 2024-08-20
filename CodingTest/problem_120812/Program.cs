@@ -16,17 +16,12 @@
             {
                 int answer = 0;
                 Array.Sort(array);
-                int repeat;
+                int sameNum = array[0];
 
-                for (int i = 0; i < array.Length; i ++)
+                for(int i = 0; i < array.Length; i++)
                 {
-                    if (array[i] == array[i +1])
-                    {
-                        repeat = array[i];
-                    }
-                   
-                }
 
+                }
 
                 return answer;
             }
