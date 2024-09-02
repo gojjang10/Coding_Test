@@ -18,7 +18,18 @@
 
                 for (int i = 0; i < allChar; i++)
                 {
-                    answer[i] = my_str.Substring(i * n, n);
+                    int start = i * n;
+                    // 시작되는 글자 지점
+
+                    int length = n;
+                    // n 만큼 자르는 수
+                    
+                    if(start + n > arr.Length)
+                        // 자르기 시작되는 글자에서 n을 더했을때 배열의 총 길이를 넘어간다면
+                    {
+                        length = arr.Length - start;
+                    }
+                    answer[i] = my_str.Substring(start, length);
                 }
 
                 return answer;
