@@ -7,19 +7,25 @@
             public string[] solution(string my_str, int n)
             {
                 char[] arr = my_str.ToCharArray();
-                int allChar = arr.Length / n;
+                // 문자열을 char타입 배열로 만들기
+
+                int result = arr.Length / n;
+                // n만큼 잘랐을때 얼만큼 자를 수 있는지 만들기
                 
                 if(arr.Length % n !=0)
+                    // 만약 나누었을때 딱 떨어지지 않는다면
                 {
-                    allChar = arr.Length / n + 1;
+                    result = arr.Length / n + 1;
+                    // 나눠서 나온 몫에 한번 더 잘라야하기에 +1
                 }
 
-                string[] answer = new string[allChar];
+                string[] answer = new string[result];
+                // 반환되는 문자열 개수
 
-                for (int i = 0; i < allChar; i++)
+                for (int i = 0; i < result; i++)
                 {
                     int start = i * n;
-                    // 시작되는 글자 지점
+                    // 자르기 시작되는 글자 지점
 
                     int length = n;
                     // n 만큼 자르는 수
