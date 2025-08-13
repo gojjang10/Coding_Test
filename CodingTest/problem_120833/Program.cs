@@ -20,7 +20,15 @@
     {
         public int[] solution(int[] numbers, int num1, int num2)
         {
-            int[] answer = new int[] { };
+            int[] answer = new int[num2 - num1 +1];
+            int k = num2 - num1;
+
+            for (int i = 0 ; i <= k ; i++)
+            {
+                answer[i] = numbers[num1];
+                num1++;
+            }
+
             return answer;
         }
     }
