@@ -14,4 +14,28 @@
             Console.WriteLine("Hello, World!");
         }
     }
+
+    public class Solution
+    {
+        public int solution(int[] numbers)
+        {
+            int maxValue = int.MinValue;
+            int secondValue = int.MinValue;
+
+            foreach (int number in numbers)
+            {
+                if (number > maxValue)
+                {
+                    secondValue = maxValue;
+                    maxValue = number;
+                }
+                else if (number > secondValue)
+                {
+                    secondValue = number;
+                }
+            }
+
+            return maxValue * secondValue;
+        }
+    }
 }
