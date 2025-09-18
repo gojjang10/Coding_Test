@@ -20,28 +20,24 @@
     {
         public int[] solution(int n)
         {
-            int[] answer = new int[] { };
-            List<int> resultlist = new List<int>();
+            // 배열의 크기를 미리 알 수 없으니 List로 구현
+            List<int> factors = new List<int>();
 
+            // 1을 제외하고 2부터 매개변수로 받은 n의 수만큼 반복하기
             for (int i = 2; i <= n; i++)
             {
-                if( n % i == 0)
+                // 나누어 지는 수만 구하기 위한 조건
+                while (n % i == 0)
                 {
-                    for(int j = 3;  j <= n; j++)
-                    {
-                        if( n % j == 0)
-                        {
-                            break;
-                        }
-                        else
-                        {
-                            resultlist.Add(j);
-                        }
-                    }
+                    factors.Add(i);
+
+                    // 나누어 지는 수로 나누는게 가능한 것이 판단되었으니 해당 수를 나누어 주어서 반복해주는 값도 줄이고 불필요한 연산을 줄이기 위해 나누기
+                    n = n / i;
                 }
             }
 
-            return answer = resultlist.ToArray();
+            // 중복되는 요소를 제거하고 배열화 시켜서 반환
+            return factors.Distinct().ToArray();
         }
     }
 }
