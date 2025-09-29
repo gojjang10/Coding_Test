@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "problem_120905/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/problem_120905.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/problem_120905.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "problem_120905/1.0.0": {
+      "type": "project",
+      "path": "../problem_120905/problem_120905.csproj",
+      "msbuildProject": "../problem_120905/problem_120905.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "problem_120905 >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\gojja\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Git\\Coding_Test\\CodingTest\\problem_120905\\problem_120905.csproj": {
+              "projectPath": "D:\\Git\\Coding_Test\\CodingTest\\problem_120905\\problem_120905.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
