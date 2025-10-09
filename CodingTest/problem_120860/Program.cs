@@ -22,8 +22,17 @@
         public int solution(int[,] dots)
         {
 
-            int width = Math.Abs(dots[0, 0] - dots[1, 0]);
-            int height = Math.Abs(dots[0, 1] - dots[2, 1]);
+            List<int> x_coords = new List<int>();
+            List<int> y_coords = new List<int>();
+
+            for (int i = 0; i < dots.GetLength(0); i++)
+            {
+                x_coords.Add(dots[i, 0]); 
+                y_coords.Add(dots[i, 1]); 
+            }
+
+            int width = x_coords.Max() - x_coords.Min();
+            int height = y_coords.Max() - y_coords.Min();
 
             return width * height;
         }
