@@ -1,5 +1,12 @@
 ﻿namespace problem_120871
 {
+
+    /// <summary>
+    ///  2025년 10월 22일
+    ///  문제 : 3x 마을 사람들은 3을 저주의 숫자라고 생각하기 때문에 3의 배수와 숫자 3을 사용하지 않습니다. 3x 마을 사람들의 숫자는 다음과 같습니다.
+    ///  정수 n이 매개변수로 주어질 때, n을 3x 마을에서 사용하는 숫자로 바꿔 return하도록 solution 함수를 완성해주세요.
+    ///  URL : https://school.programmers.co.kr/learn/courses/30/lessons/120871
+
     internal class Program
     {
         static void Main(string[] args)
@@ -12,24 +19,21 @@
     {
         public int solution(int n)
         {
-            int count = 0; // '착한 숫자'를 몇 개 찾았는지 세는 카운터
-            int num = 0;   // 실제 확인하는 숫자 (1부터 시작할 것이므로 0으로 초기화)
+            int count = 0;
+            int resultNumber = 0;
 
-            // '착한 숫자'를 n개 찾을 때까지 반복
-            while (count < n)
+            while (count < n)   // 반환되야 하는 숫자를 찾을 때까지 반복
             {
-                num++; // 다음 숫자로 이동해서 확인 시작
+                resultNumber++; // 결과 숫자 1씩 증가
 
-                // 현재 숫자(num)가 3의 배수도 아니고 '3'도 포함하지 않는지 확인
-                if (num % 3 != 0 && !num.ToString().Contains('3'))
+                if (resultNumber % 3 != 0 && !resultNumber.ToString().Contains('3')) // 3의 배수도 아니고 숫자 3도 포함하지 않을 때
                 {
-                    // '착한 숫자'를 찾았으므로 카운트 증가
-                    count++;
+                    count++;    // 카운트 증가
                 }
+               
             }
 
-            // count가 n이 되는 순간의 num 값이 n번째 '착한 숫자'
-            return num;
+            return resultNumber;
         }
     }
 }
