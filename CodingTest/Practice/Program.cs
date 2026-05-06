@@ -23,15 +23,10 @@ namespace Practice
 
     public class SampleClass
     {
+        LinkedList<int> numbers = new LinkedList<int>();
         private void PracticePlayer()
         {
-            Player player1 = new Player();
-            player1.health = 100;
-            player1.weapon = new Weapon();
-
-            Player player2;
-            player2.health = 500;
-            player2.weapon = player1.weapon;
+            numbers.AddFirst(10); 
         }
     }
 
