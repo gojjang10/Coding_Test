@@ -1,0 +1,5 @@
+D:\Git\Coding_Test\CodingTest\problem_120823\obj\Debug\net8.0\problem_120823.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\Coding_Test\CodingTest\problem_120823\obj\Debug\net8.0\problem_120823.AssemblyInfoInputs.cache
+D:\Git\Coding_Test\CodingTest\problem_120823\obj\Debug\net8.0\problem_120823.AssemblyInfo.cs
+D:\Git\Coding_Test\CodingTest\problem_120823\obj\Debug\net8.0\problem_120823.csproj.CoreCompileInputs.cache
+D:\Git\Coding_Test\CodingTest\problem_120823\obj\Debug\net8.0\problem_120823.sourcelink.json

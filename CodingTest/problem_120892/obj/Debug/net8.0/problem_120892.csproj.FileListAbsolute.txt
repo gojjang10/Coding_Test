@@ -1,0 +1,15 @@
+D:\Git\Coding_Test\CodingTest\problem_120892\bin\Debug\net8.0\problem_120892.exe
+D:\Git\Coding_Test\CodingTest\problem_120892\bin\Debug\net8.0\problem_120892.deps.json
+D:\Git\Coding_Test\CodingTest\problem_120892\bin\Debug\net8.0\problem_120892.runtimeconfig.json
+D:\Git\Coding_Test\CodingTest\problem_120892\bin\Debug\net8.0\problem_120892.dll
+D:\Git\Coding_Test\CodingTest\problem_120892\bin\Debug\net8.0\problem_120892.pdb
+D:\Git\Coding_Test\CodingTest\problem_120892\obj\Debug\net8.0\problem_120892.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\Coding_Test\CodingTest\problem_120892\obj\Debug\net8.0\problem_120892.AssemblyInfoInputs.cache
+D:\Git\Coding_Test\CodingTest\problem_120892\obj\Debug\net8.0\problem_120892.AssemblyInfo.cs
+D:\Git\Coding_Test\CodingTest\problem_120892\obj\Debug\net8.0\problem_120892.csproj.CoreCompileInputs.cache
+D:\Git\Coding_Test\CodingTest\problem_120892\obj\Debug\net8.0\problem_120892.sourcelink.json
+D:\Git\Coding_Test\CodingTest\problem_120892\obj\Debug\net8.0\problem_120892.dll
+D:\Git\Coding_Test\CodingTest\problem_120892\obj\Debug\net8.0\refint\problem_120892.dll
+D:\Git\Coding_Test\CodingTest\problem_120892\obj\Debug\net8.0\problem_120892.pdb
+D:\Git\Coding_Test\CodingTest\problem_120892\obj\Debug\net8.0\problem_120892.genruntimeconfig.cache
+D:\Git\Coding_Test\CodingTest\problem_120892\obj\Debug\net8.0\ref\problem_120892.dll
