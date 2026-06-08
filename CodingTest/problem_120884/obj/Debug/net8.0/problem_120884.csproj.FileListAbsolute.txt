@@ -1,0 +1,15 @@
+D:\Git\Coding_Test\CodingTest\problem_120884\bin\Debug\net8.0\problem_120884.exe
+D:\Git\Coding_Test\CodingTest\problem_120884\bin\Debug\net8.0\problem_120884.deps.json
+D:\Git\Coding_Test\CodingTest\problem_120884\bin\Debug\net8.0\problem_120884.runtimeconfig.json
+D:\Git\Coding_Test\CodingTest\problem_120884\bin\Debug\net8.0\problem_120884.dll
+D:\Git\Coding_Test\CodingTest\problem_120884\bin\Debug\net8.0\problem_120884.pdb
+D:\Git\Coding_Test\CodingTest\problem_120884\obj\Debug\net8.0\problem_120884.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\Coding_Test\CodingTest\problem_120884\obj\Debug\net8.0\problem_120884.AssemblyInfoInputs.cache
+D:\Git\Coding_Test\CodingTest\problem_120884\obj\Debug\net8.0\problem_120884.AssemblyInfo.cs
+D:\Git\Coding_Test\CodingTest\problem_120884\obj\Debug\net8.0\problem_120884.csproj.CoreCompileInputs.cache
+D:\Git\Coding_Test\CodingTest\problem_120884\obj\Debug\net8.0\problem_120884.sourcelink.json
+D:\Git\Coding_Test\CodingTest\problem_120884\obj\Debug\net8.0\problem_120884.dll
+D:\Git\Coding_Test\CodingTest\problem_120884\obj\Debug\net8.0\refint\problem_120884.dll
+D:\Git\Coding_Test\CodingTest\problem_120884\obj\Debug\net8.0\problem_120884.pdb
+D:\Git\Coding_Test\CodingTest\problem_120884\obj\Debug\net8.0\problem_120884.genruntimeconfig.cache
+D:\Git\Coding_Test\CodingTest\problem_120884\obj\Debug\net8.0\ref\problem_120884.dll
